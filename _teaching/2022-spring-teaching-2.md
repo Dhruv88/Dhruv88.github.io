@@ -1,7 +1,7 @@
 ---
 title: "Associate Mentor"
 collection: teaching
-type: "Feelancing tutoring"
+type: "Feelance tutoring"
 permalink: /teaching/2022-spring-teaching-1
 venue: "IB Hubs"
 date: 2021-08-20

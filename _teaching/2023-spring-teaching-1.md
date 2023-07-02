@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant Discrete Maths"
+title: "Teaching Assistant in Discrete Maths"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-spring-teaching-1
