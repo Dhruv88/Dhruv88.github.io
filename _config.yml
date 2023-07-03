@@ -181,7 +181,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  paper_reviews:
+  paper-reviews:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -227,10 +227,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _paper_reviews
+  # _paper-reviews
   - scope:
       path: ""
-      type: paper_reviews
+      type: paper-reviews
     values:
       layout: single
       author_profile: true

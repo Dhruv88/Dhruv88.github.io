@@ -1,7 +1,7 @@
 ---
 title: "DistDGL: Distributed Graph Neural Network Training for Billion-Scale Graphs"
 excerpt: "The paper discusses design and development of a distributed graph neural network training framework based on existing Deep Graph Library."
-collection: paper_reviews
+collection: paper-reviews
 date: 2023-01-15
 
 ---
