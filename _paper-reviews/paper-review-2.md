@@ -89,6 +89,7 @@ which is quite commendable.
 Detailed Analysis of the Solution Approach:
 ======
 ![Alt text](/images/image2.png)
+
 The above figure shows the system design of FedGNN.
 The three main highlights of the FedGNN system are:
 1. **Enhancing realistic evaluation with efficient and deployable distributed system

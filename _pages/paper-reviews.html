@@ -24,7 +24,7 @@ Sections 6 and 7 might not always be present.
 {% include base_path %}
 
 
-{% for post in site.paper-reviews %}
+{% for post in site.paper-reviews reversed%}
   {% include archive-single.html %}
 {% endfor %}
 

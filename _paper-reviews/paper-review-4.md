@@ -60,9 +60,11 @@ class l).
 edges from l1 to l2 nodes among all the nodes from l1 nodes. Thus how many
 class l1 nodes prefer class l2 nodes? This is an asymmetric relation.
 ![Alt text](/images/image3.png)
+
     c. Attribute-class correlation: The degree to which the node's attributes are related
 to its class.
 ![Alt text](/images/image4.png)
+
 * Graph features: The fundamental statistics of graphs, such as the numbers of nodes,
 edges and attributes
 The above inputs are given to the generator, for generating graphs of various sizes.
@@ -82,6 +84,7 @@ The loss functions mainly optimize accuracy, so the model gives priority to the 
 compared to the minority classes.
 The following formula has been used to generate different class distributions:
 ![Alt text](/images/image5.png)
+
 α is the largest class size. α ∈ [0.4, 0.5, 0.6, 0.7] values were considered. Also, this was
 compared to the balanced case where all classes occur equally.
 In the balanced setting, the very recent method GPRGNN achieves the best f1-macro due to its
@@ -90,6 +93,7 @@ outperforms other complicated GNN algorithms in imbalanced settings.
 **Various Edge Connection Proportions between Classes**
 The following formula was used to generate the different class preferences:
 ![Alt text](/images/image6.png)
+
 where β is a parameter controlling the homophily/heterophily property in a graph, and MCora
 indicates the class preference mean of Cora. A high β means more heterophily, and a low β
 means more homophily. β ∈ [0, 2, 4, 6, 8] were used.
@@ -100,9 +104,9 @@ topology much, especially for strong heterophily when β = 8. Finally, all model
 f1-macro scores when edges are almost randomly generated between classes(β = 6).
 **Various Attribute Values**
 The following formula was used to generate the attribute-class correlations:
-H
-conf = (H
-Cora + γc)/(1 + γ)
+
+**H<sup>conf</sup> = (H<sup>Cora</sup> + γc)/(1 + γ)**
+
 If γ is large, the correlation is less i.e. attributes are less valuable to predict labels. γ ∈ [16, 4, 1,
 0] values were used.
 Most models obtain low f1-macro scores when attribute values are close to random. SGC
@@ -121,6 +125,7 @@ classification performance as graph sizes are large since it appropriately fits 
 using more train data from larger graphs.
 The graphs for the above evaluations are given below:
 ![Alt text](/images/image7.png)
+
 The authors also evaluated the training efficiency on synthetic graphs with various graph sizes.
 The general trend is that the time increases with size and density, and for some, it is significantly
 more because of more number of operations.

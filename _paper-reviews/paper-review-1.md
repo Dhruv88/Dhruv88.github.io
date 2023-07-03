@@ -124,6 +124,7 @@ Focus only on the node classification task.
 Benchmarking done on GraphSAGE model using OBGN products and papers graphs given
 below:
 ![Alt text](/images/image.png)
+
 They use a cluster of eight AWS EC2 m5n.24xlarge instances (96 VCPU, 384GB RAM each)
 connected by a 100Gbps network. In all experiments, they use DGL v0.5 and Pytorch 1.5. For
 Euler experiments, they use Euler v2.0 and TensorFlow 1.12.
@@ -149,7 +150,8 @@ the different multiprocessing sampling used by the two frameworks. DGL relies on
 loaders multiprocessing to sample mini-batches, while DistDGL uses dedicated sampler
 processes to generate mini-batches. Not only is speed increased, but accuracy is maintained as
 well.
-![Alt text](/images/image1.png)
+![Alt text](/images/image1.png
+)
 ### Comments on possible extensions and Conlusion:
 The paper is complete in the sense that it gives an end-to-end distributed framework for training
 GNNs. It speeds up the process significantly and is also able to handle very large graphs with

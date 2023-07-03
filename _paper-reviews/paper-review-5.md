@@ -50,16 +50,20 @@ representation is a generalised version of these. These representations might no
 when the object is irregularly shaped.
 The following update equations are used to calculate the hidden representations of the model:
 ![Alt text](/images/image9.png)
+
 Here N(x<sub>i</sub>) represents the the neighbours of node x<sub>i</sub>. The above computation is denoted as the
 GraphConv(X). The aggregated features in x<sub>i</sub><sup>''</sup> are divided into h heads as below:
 ![Alt text](/images/image10.png)
+
 This helps in improving the feature diversity. To further increase the diversity a linear layer are
 added before and after GraphConv as given below:
 ![Alt text](/images/image11.png)
+
 To further encourage the feature transformation capacity and relief the over-smoothing
 phenomenon, we utilize feed-forward network (FFN) on each node. The FFN module is a simple
 multi-layer perceptron with two fully-connected layers:
 ![Alt text](/images/image12.png)
+
 A stack of Grapher and FFN modules constitutes the ViG block, which is the basic building unit
 for constructing a network.
 Both isotropic and pyramid architectures have been made using these building units. In isotropic
@@ -78,6 +82,7 @@ cases the VisGNN performs better compared to the respective sized models.
 An Ablation study was also conducted to see individual effect of each of their models. The
 results are given below:
 ![Alt text](/images/image13.png)
+
 Thus, you can see that using all the three models gives best performance. Other experiments
 show that increasing the value of K for nearest neighbours improves Top-1 score by about 1.5%
 when going from K=3 to 9 nodes. Also using lesser number of heads is better but the drop in
