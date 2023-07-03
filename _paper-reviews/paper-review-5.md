@@ -1,6 +1,6 @@
 ---
 title: "Vision GNN: An Image is Worth Graph of Nodes"
-excerpt: "The paper discusses the results of conducting extensive experiments with a synthetic graph generator that can generate graphs having controlled characteristics for fine-grained analysis for node classification tasks."
+excerpt: "The paper proposes to represent the image as a graph structure and introduce a new Vision GNN (ViG) architecture to extract graph-level feature for visual tasks."
 collection: paper-reviews
 date: 2023-05-30
 ---
@@ -93,3 +93,5 @@ It will be interesting to see the application of GNNs on others tasks such as se
 needs to be done on improving the inference speed for GNNs as they are slower than CNNs. In
 general with this base work more sophisticated architectures that use GNNs for vision tasks can
 be explored.
+
+[Paper Link](https://arxiv.org/abs/2206.00272)
