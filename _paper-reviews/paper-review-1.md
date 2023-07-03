@@ -155,6 +155,6 @@ GNNs. It speeds up the process significantly and is also able to handle very lar
 millions or billions of nodes. Possible extensions include trying more partitioning approaches
 that make it more efficient, trying to achieve better accuracy than training on a single machine,
 and using model aggregation which involves aggregating all the local models trained on each of
-the trainers
+the trainers.
 
 [Paper Link](https://arxiv.org/abs/2010.05337)
