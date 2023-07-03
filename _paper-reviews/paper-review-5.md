@@ -39,6 +39,7 @@ changes with the number of nodes.
 
 Detailed Analysis of the Solution Approach:
 ======
+![Alt text](/images/image8.png)
 The above image shows the overview of the Vision GNN framework. The 3-channel image is
 divided into N patches. Each patch is represented using a feature vector of D dimensions. The
 N patches are considered as the nodes of the graph. K nearest neighbours are found for this
@@ -47,8 +48,9 @@ edges. The graph finally formed is used for training the GNN model.
 The existing works use a grid or sequence based representation for images. The graph
 representation is a generalised version of these. These representations might not be the best
 when the object is irregularly shaped.
-The following update equations are used to calculate the hidden representations of the model.
-Here N(xi) represents the the neighbours of node x<sub>i</sub>. The above computation is denoted as the
+The following update equations are used to calculate the hidden representations of the model:
+$$ x_{i}^{'} $$
+Here N(x<sub>i</sub>) represents the the neighbours of node x<sub>i</sub>. The above computation is denoted as the
 GraphConv(X). The aggregated features in x<sub>i</sub><sup>''</sup> are divided into h heads as below:
 This helps in improving the feature diversity. To further increase the diversity a linear layer are
 added before and after GraphConv as given below:
