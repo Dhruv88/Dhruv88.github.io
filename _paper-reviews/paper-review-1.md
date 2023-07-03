@@ -116,8 +116,9 @@ training set evenly across all trainers at the beginning of distributed training
 * In terms of parameter synchronization, we use synchronous SGD to update dense
 model parameters.
 * Concurrent updates from multiple trainers rarely result in conflicts because mini-batches
-from different trainers run on different embeddings
-Detailed Analysis of the experiments
+from different trainers run on different embeddings.
+
+Detailed Analysis of the experiments:
 ======
 Focus only on the node classification task.
 Benchmarking done on GraphSAGE model using OBGN products and papers graphs given

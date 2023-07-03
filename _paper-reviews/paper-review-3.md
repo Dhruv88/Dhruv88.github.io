@@ -39,6 +39,7 @@ This is a new work in this area. The paper is the first to propose the concept o
 overcorrelation in deep graph neural networks, and to provide empirical and theoretical
 evidence for its existence and causes. The paper is also the first to propose a general
 framework DeCorr to reduce the feature correlation and enable deeper GNNs.
+
 Top Contributions:
 ======
 The top 3 contributions of the paper are:
@@ -51,7 +52,8 @@ components: a correlation regularization term and a correlation-aware
 aggregator.
 * The paper is the first to show that DeCorr is complementary to existing
 techniques that tackle the oversmoothing issue, which is another key challenge
-for deep GNNs
+for deep GNNs.
+
 Specific Comments:
 ======
 * The paper is novel in proposing the concept of feature overcorrelation in deep
@@ -94,8 +96,9 @@ DeCorr.
 I thought the paper was really cool in proposing a new perspective to look at the
 performance degradation of deep graph neural networks, which is feature
 overcorrelation. I also thought the paper was really cool in proposing a general
-framework DeCorr to reduce the feature correlation and enable deeper GNNs
-Detailed Analysis of Solution Approach
+framework DeCorr to reduce the feature correlation and enable deeper GNNs.
+
+Detailed Analysis of Solution Approach:
 ======
 The key features of the solution in the paper are:
 * The paper proposes a new perspective to look at the performance degradation of
@@ -123,6 +126,7 @@ concepts such as overfitting.
 * The paper could provide a thorough evaluation or explanation of the parameter
 sensitivity analysis of DeCorr. The paper could also provide some insights or
 guidelines on how to tune these parameters for different datasets or tasks.
+
 Detailed Analysis of Validation and Experiments conducted:
 ======
 The experiments conducted to validate the solution in the paper are:
@@ -154,6 +158,7 @@ DeCorr, such as heterogeneous graphs, dynamic graphs, or graph generation.
 diversity, feature interpretability, or computational efficiency.
 * The paper could provide more details or explanations on how to choose or tune
 the parameters of DeCorr for different datasets or tasks.
+
 Comments and Possible Extensions:
 ======
 * The paper inspires me to solve problems in graph representation learning for

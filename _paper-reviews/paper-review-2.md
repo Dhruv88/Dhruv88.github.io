@@ -52,6 +52,7 @@ The work collected a set of graph datasets for different learning tasks. It has 
 non-IID sampling of graph datasets using Latent Dirichlet Allocation(LDA). Finally, it has
 proposed a secure, efficient and distributed FedGNN framework and evaluated the
 accuracy/loss metrics and the training time.
+
 Main Contributions:
 ======
 The three main contributions of the paper are:
@@ -65,6 +66,7 @@ and groups.
 3. Creation of an efficient, secure, distributed and system-agnostic framework with baseline
 implementations of different GNN models and FL algorithms for ease of new research in
 this field.
+
 Specific comments:
 ======
 * The novelty of the framework lies in its use of tensor-oriented RPC API for faster
@@ -83,6 +85,7 @@ trained in a federated way using the framework for subgraph-level or node-level 
 * No details on the SOTA Light Secure Aggregation have been given.
 * The authors have kept in mind the ease of researching while building the framework,
 which is quite commendable.
+
 Detailed Analysis of the Solution Approach:
 ======
 ![Alt text](/images/image2.png)
@@ -127,12 +130,14 @@ node classification tasks followed by better performance on the specific graphs 
 link-prediction tasks compared to centralised learning.
 For the Lightweight Secure Aggregation, the algorithm performs 12.7x better than SecAgg and
 4.1x better than SecAgg+ when the dropout rate is 30% in terms of speed.
+
 Comments on Possible Extensions/Improvements/Next Steps:
 ======
 1. Graphs dataset can be grown with graphs from more domains.
 2. The efficiency of the system can be improved further.
 3. Decreased FL accuracy due to non-IIDness of graphs can be further explored.
 4. More focus can be given on security and privacy in FL.
+
 Conclusion:
 ======
 Existing platforms like LEAF, TensorFlow Federated, PySyft, and FATE did not support graph

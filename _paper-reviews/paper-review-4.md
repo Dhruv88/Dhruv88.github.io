@@ -27,6 +27,7 @@ characteristics on the performance of GNNs through extensive experimentation:
 2. the relationship between classes and topology
 3. the relationship between classes and attributes
 4. graph sizes
+
 Specific Comments:
 ======
 1. The evaluation is done on a large set of GNN models and a wide range of values for
@@ -40,6 +41,7 @@ considered.
 analysed as well.
 6. Only Homogenous graphs have been considered.
 7. Similar performance analysis of pre and post-processing techniques must also be done.
+
 Detailed Analysis of the Solution Approach:
 ======
 For the comprehensive fine-grained analysis, the graph generator needed to have the following
@@ -64,6 +66,7 @@ to its class.
 * Graph features: The fundamental statistics of graphs, such as the numbers of nodes,
 edges and attributes
 The above inputs are given to the generator, for generating graphs of various sizes.
+
 Detailed Analysis of Validation and Experiments conducted:
 ======
 The empirical studies focus on the four characteristics mentioned in the contributions section.
@@ -121,7 +124,8 @@ The graphs for the above evaluations are given below:
 The authors also evaluated the training efficiency on synthetic graphs with various graph sizes.
 The general trend is that the time increases with size and density, and for some, it is significantly
 more because of more number of operations.
-Further works
+
+Further works:
 ======
 From the above works, it is clear that work should be done to improve the performance in class
 imbalance and heterophily settings. Also, evaluations considering more characteristics like
