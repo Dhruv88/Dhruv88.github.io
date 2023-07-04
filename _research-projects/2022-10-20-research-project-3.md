@@ -1,9 +1,11 @@
 ---
 title: "Exploring the LED Cipher"
-collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
+collection: research-projects
+permalink: /research-projects/2010-10-01-research-project-2
+excerpt: 'Understanding and cryptanalysing the LED cipher'
+dateFrom: 2022-10-20
+dateTo: 2022-12-01
+mentor: "Dr. Dhiman Saha"
 ---
 
 Understood the design of the LED cipher and created illustrations and diagram to show its working. Analyzed the sbox properties of LED cipher and performed preliminary integral and differential cryptanalysis of the cipher. Developed a small application using the cipher. 
