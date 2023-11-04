@@ -12,3 +12,6 @@ mentor: "Dr. Gagan Raj Gupta and Dr. Vishwesh Jatala"
 ---
 
 Working on scaling and distributed training of graph neural networks. Exploring different efficient graph partitioning strategies that also boost accuracy of distributed GNNs. Mitigating the class imbalance problem through different sampling techniques and loss functions. Using asynchronous training to speed up the convergence.
+
+The paper has been accepted at ICDM'23(paper link will be updated soon)
+[Code](https://github.com/Anirban600/EAT-DistGNN)
