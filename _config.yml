@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Dhruv Deshmukh"
   avatar           : "profile.jpg"
-  bio              : "Completed my B.Tech in Computer Science Engineering from Indian Institute of Technology in June 2023. Actively researching in Graph Machine Learning and Distributed ML"
+  bio              : "Research Fellow at Microsoft Research India. Completed my B.Tech in Computer Science Engineering from Indian Institute of Technology in June 2023."
   location         : "India"
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=OO1cZWcAAAAJ&hl=en"
   email            : "dhruva4000@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :

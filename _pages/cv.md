@@ -16,21 +16,29 @@ Education
 
 Work experience
 ======
-* Feb-May 2023: UG Research Fellow TIH IIT Bhilai
+* Jul 2024 - Present: Research Fellow at Microsoft Research India
+  * Working on making LLM inference efficient
+
+
+* Oct 2023 - Jun 2024: Associate Software Development Engineer at Publicis Sapient
+  * Modernized the Deposits journey on web and mobile for Lloyds Banking Group
+  * Spearheaded WCAG 2.1 accessibility for the application
+
+
+* Feb 2023 - May 2023: UG Research Fellow at TIH IIT Bhilai
   * Created the prototype for a Bike Renting System using LoRa technology
   * LoRa Protocol for communication between Gateway and bike-locks
   * Coding the App-Server system for renting the bike
 
 
-* May-July 2022: Sofware Development Engineering Intern: Publicis Sapient
+* May 2022 - July 2022: Sofware Development Engineering Intern at Publicis Sapient
   * Integrated Google PubSub communication in Point of Sale ordering and management system making it data flow more reliable
   * Designed and Deployed end-to-end face recognition microservice 25% more efficient and 99% smaller network data packet size than earlier design
 
 Achievements
 ======
+* Award for Learning Mindset at client townhall while working at Publicis Sapient
 * Smart India Hackathon'22 Finalist & Runner Up in Software Monitoring category
-* Among the 450 students selected for Google ML Bootcamp'22
-* Among the 3000 students selected for Amazon ML Summer School'22
 * Member of a team of 4 that stood 1892/9000+ teams in Google Hashcode'21 
 * Led a team that stood 279/3500+ teams in the ICPC'21 Amritapuri preliminary round and qualified for the regional round
 
