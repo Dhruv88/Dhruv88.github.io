@@ -8,8 +8,7 @@ dateTo: 2023-07-01
 mentor: "Dr. Gagan Raj Gupta and Dr. Vishwesh Jatala"
 venue: 'International conference on Data Mining(ICDM) 2023'
 paperurl: 'https://arxiv.org/abs/2311.02399'
-citation: 'D. Deshmukh, G. R. Gupta, M. Chawla, V. Jatala and A. Haldar, "Entropy Aware Training for Fast and Accurate Distributed GNN," 2023 IEEE International Conference on Data Mining (ICDM), Shanghai, China, 2023, pp. 986-991, doi: 10.1109/ICDM58522.2023.00112.
-keywords: {Training;Benchmark testing;Graph neural networks;Entropy;Partitioning algorithms;Standards;Convergence;Distributed ML;graph neural networks;class imbalance},'
+citation: 'D. Deshmukh, G. R. Gupta, M. Chawla, V. Jatala and A. Haldar, "Entropy Aware Training for Fast and Accurate Distributed GNN," 2023 IEEE International Conference on Data Mining (ICDM), Shanghai, China, 2023, pp. 986-991'
 ---
 
 ![Our techniques](../images/image15.png)
