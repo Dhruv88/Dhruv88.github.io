@@ -8,6 +8,8 @@ dateTo: 2022-12-01
 mentor: "Dr. Dhiman Saha"
 ---
 
+![LED cipher visualization](../images//image14.png)
+
 Understood the design of the LED cipher and created illustrations and diagram to show its working. Analyzed the sbox properties of LED cipher and performed preliminary integral and differential cryptanalysis of the cipher. Developed a small application using the cipher. 
 
 [Report Link](/files/Cryptoducks_Term_paper.pdf)
