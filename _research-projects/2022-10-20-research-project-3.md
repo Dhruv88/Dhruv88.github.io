@@ -6,7 +6,6 @@ excerpt: 'Understanding and cryptanalysing the LED cipher'
 dateFrom: 2022-10-20
 dateTo: 2022-12-01
 mentor: "Dr. Dhiman Saha"
-paperurl: '
 ---
 
 ![LED cipher visualization](../images//image14.png)
