@@ -12,14 +12,15 @@ This is the front page of a website that is powered by the [academicpages templa
 
 ## UPDATES
 
+### 14-12-2024 I will be presenting a tutorial on distributed GNN training at CODS-COMAD'24 on 18th December[Tutorial Website](https://github.com/gagan-iitb/DIST_GNN/)
 ### 01-07-2024 I have joined Microsoft Research India as a Research Fellow.
 ### 04-11-2023 My first paper accepted at ICDM'23 [Arxiv](https://arxiv.org/abs/2311.02399) [IEEE](https://ieeexplore.ieee.org/document/10415701)
 
 I am a young researcher and engineer with keen interest in development of ML Systems. Currently I am working at Microsoft Research India as a Research Fellow as a part of the AI Infra team. Our current focus is on making LLM inference more efficient. 
 
-My previous work was on distributed training of graph neural networks, developing better partitioning schemes of graph datasets that yield better accuracy through distributed training. Class imbalance is a prevalent problem graph datasets and needs to be handled to achieve better accuracies. My current work also focuses on researching loss functions and sampling techniques that mitigate class imabalance and achieve better macro-F1 scores. We have been able to bring some speed up in training and improves the macro and micro-F1 scores. The work was accepted at ICDM'23.
+My previous work was on distributed training of graph neural networks, developing better partitioning schemes of graph datasets that yield better accuracy through distributed training. Class imbalance is a prevalent problem graph datasets and needs to be handled to achieve better accuracies. This work focused on researching loss functions and sampling techniques that mitigate class imabalance and achieve better macro-F1 scores. We were able to bring some speed up in training and improve the macro and micro-F1 scores. The work was accepted at ICDM'23.
 
-I was also granted an undergraduate research fellowship by TIH IIT Bhilai. As a research fellow I worked with my team on a designing and developing a prototype for a bike renting system using the LoRaWAN technology for our university campus. I also have experience in software engineering through my internship at Publicis Sapient. During this internship our team developed and deployed a face recognition microservice for point of sale checkout terminals. We improved upon the previous design making it 25% more efficient. 
+Before joining MSR I worked as a SDE at Publicis Sapient. My work there focused building efficient and accessible frontends. I won an award for Learning Mindset during our annual client townhall.
 
 <!-- Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
